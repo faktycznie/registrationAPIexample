@@ -1,0 +1,21 @@
+.header {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 0 0 10vh;
+	@media screen and (min-width: 767px) {
+		text-align: initial;
+		padding: 0 0 22vh;
+	}
+	&__subtitle {
+		font-size: 16px;
+		line-height: 1.1;
+		margin: 0;
+	}
+	&__title {
+		font-size: 47px;
+		font-weight: 700;
+		line-height: 1.1;
+		margin: 0;
+	}
+}

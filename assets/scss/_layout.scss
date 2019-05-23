@@ -1,0 +1,25 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-size: 14px;
+	line-height: 1.5;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	background: url('background.jpg') no-repeat center center fixed;
+	background-color: #0171e1;
+	background-size: cover;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1600px;
+	padding: 0 15px;
+}

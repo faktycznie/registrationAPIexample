@@ -1,0 +1,45 @@
+.form {
+	display: flex;
+	justify-content: center;
+	padding: 0 0 10vh;
+	&__inner {
+		max-width: 312px;
+		text-align: center;
+	}
+	&__input {
+		width: 100%;
+		border: none;
+		background: rgba(0,0,0, .7);
+		color: #fff;
+		font-size: 18px;
+		line-height: 20px;
+		padding: 15px 13px;
+		margin: 0 0 24px;
+		@include placeholder {
+			color: #fff;
+			opacity: 1;
+		}
+	}
+	&__button {
+		display: block;
+		cursor: pointer;
+		width: 100%;
+		border: none;
+		background: #00ae5f;
+		color: #fff;
+		text-transform: uppercase;
+		line-height: 20px;
+		font-size: 20px;
+		padding: 15px;
+		transition: all .3s ease;
+		&:hover,
+		&:focus {
+			background: darken(#00ae5f, 10%);
+		}
+	}
+	&__message {
+		margin: 25px;
+		font-size: 18px;
+		line-height: 1.1;
+	}
+}

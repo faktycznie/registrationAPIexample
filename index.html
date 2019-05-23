@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Just an example</title>
+		<meta name="description" content="">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/normalize.min.css">
+		<link rel="stylesheet" href="assets/app.min.css">
+		<script src="assets/app.babel.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="container__inner">
+				<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__item"><a class="menu__link menu__link--active" href="#">About us</a></li>
+						<li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+						<li class="menu__item menu__item--logo"><a class="menu__link" href="index.html"><img src="assets/logo.png" srcset="assets/logo.png 1x, assets/logo@2x.png 2x" alt="Home"></a></li>
+						<li class="menu__item"><a class="menu__link" href="#">Policy</a></li>
+						<li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+					</ul>
+				</nav>
+				<div class="header">
+					<div class="header__inner">
+						<p class="header__subtitle">Welcome to</p>
+						<h1 class="header__title">TransMount company</h1>
+					</div>
+				</div>
+				<div class="form">
+					<form id="form" class="form__inner">
+						<input class="form__input" type="text" placeholder="Email" name="login" id="login" aria-label="Email" required>
+						<input class="form__input form__input--password" type="password" placeholder="Password" name="password" id="password" aria-label="Password" required>
+						<button class="form__button" type="submit">Register</button>
+						<div id="msg" class="form__message" role="alert"></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
